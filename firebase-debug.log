@@ -1,0 +1,57 @@
+[debug] [2022-09-19T15:45:16.910Z] ----------------------------------------------------------------------
+[debug] [2022-09-19T15:45:16.912Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vigneash M\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-19T15:45:16.912Z] CLI Version:   9.21.0
+[debug] [2022-09-19T15:45:16.912Z] Platform:      win32
+[debug] [2022-09-19T15:45:16.912Z] Node Version:  v14.17.5
+[debug] [2022-09-19T15:45:16.913Z] Time:          Mon Sep 19 2022 21:15:16 GMT+0530 (India Standard Time)
+[debug] [2022-09-19T15:45:16.913Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-19T15:45:16.919Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-19T15:45:16.919Z] > authorizing via signed-in user (vigneash2019@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\VIgneashResume
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-19T15:45:28.597Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-09-19T15:45:29.286Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-09-19T15:45:29.286Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project vigneash27-7d7f6 (vigneash27) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Didn't detect a .git folder. Assuming D:\VIgneashResume is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=589932234&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-09-19T15:45:39.532Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"d928e60ecfac70d13eb6","redirect_uri":"http://localhost:9005","state":"589932234"}
+[debug] [2022-09-19T15:45:39.963Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Mon, 19 Sep 2022 15:45:39 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With","etag":"W/\"d8542ae89d3b3d30fe1bf3b7d2ad46a3\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"FA77:4B2C:F8C60E:125E9CB:63288EA3"}
+[debug] [2022-09-19T15:45:39.966Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-09-19T15:45:40.437Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-09-19T15:45:40.437Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"vigneash27","id":85166071,"node_id":"MDQ6VXNlcjg1MTY2MDcx","avatar_url":"https://avatars.githubusercontent.com/u/85166071?v=4","gravatar_id":"","url":"https://api.github.com/users/vigneash27","html_url":"https://github.com/vigneash27","followers_url":"https://api.github.com/users/vigneash27/followers","following_url":"https://api.github.com/users/vigneash27/following{/other_user}","gists_url":"https://api.github.com/users/vigneash27/gists{/gist_id}","starred_url":"https://api.github.com/users/vigneash27/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vigneash27/subscriptions","organizations_url":"https://api.github.com/users/vigneash27/orgs","repos_url":"https://api.github.com/users/vigneash27/repos","events_url":"https://api.github.com/users/vigneash27/events{/privacy}","received_events_url":"https://api.github.com/users/vigneash27/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":2,"public_gists":0,"followers":0,"following":0,"created_at":"2021-06-01T10:36:52Z","updated_at":"2022-04-27T11:24:13Z","private_gists":0,"total_private_repos":5,"owned_private_repos":5,"disk_usage":187,"collaborators":1,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as vigneash27 
+[info] 
+[debug] [2022-09-19T15:46:57.225Z] >>> [apiv2][query] GET https://api.github.com/repos/cd../actions/secrets/public-key type=owner
+[debug] [2022-09-19T15:46:57.590Z] <<< [apiv2][status] GET https://api.github.com/repos/cd../actions/secrets/public-key 404
+[debug] [2022-09-19T15:46:57.590Z] <<< [apiv2][body] GET https://api.github.com/repos/cd../actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-19T15:47:05.501Z] >>> [apiv2][query] GET https://api.github.com/repos/cd cd../actions/secrets/public-key type=owner
+[debug] [2022-09-19T15:47:05.841Z] <<< [apiv2][status] GET https://api.github.com/repos/cd cd../actions/secrets/public-key 404
+[debug] [2022-09-19T15:47:05.842Z] <<< [apiv2][body] GET https://api.github.com/repos/cd cd../actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
